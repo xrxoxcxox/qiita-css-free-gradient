@@ -84,15 +84,11 @@ body {
 }
 
 .color7 {
-  background: linear-gradient(
-    to top,
-    #febcff 23.33%,
-    rgba(254, 202, 255, 0) 83.77%
-  );
-  top: 4vmax;
+  background: linear-gradient(to top, #febcff 20%, rgba(254, 202, 255, 0) 100%);
+  top: 8vmax;
   filter: blur(8vmax);
   height: 50vmax;
-  left: -20vmax;
+  left: -12vmax;
   position: absolute;
   transform: rotate(-30deg);
   width: 100vmax;
