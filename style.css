@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.gradient-container {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.color1 {
+  background-color: #6d83f3;
+  height: 200vmax;
+  filter: blur(3vmax);
+  left: 45vmax;
+  position: absolute;
+  top: -4vmax;
+  width: 64vmax;
+}
+
+.color2 {
+  background-color: #4d38ce;
+  border-radius: 50%;
+  filter: blur(5vmax);
+  height: 38vmax;
+  left: 84vmax;
+  position: absolute;
+  top: -28vmax;
+  width: 38vmax;
+}
+
+.color3 {
+  background-color: #ee5555;
+  border-radius: 50%;
+  filter: blur(3vmax);
+  left: 45vmax;
+  height: 100vmax;
+  position: absolute;
+  top: 19vmax;
+  width: 67vmax;
+}
+
+.color4 {
+  background-color: #ffbe82;
+  filter: blur(12vmax);
+  height: 100vmax;
+  left: -13vmax;
+  position: absolute;
+  top: 20vmax;
+  width: 83vmax;
+}
+
+.color5 {
+  background-color: #cdfcff;
+  border-radius: 50%;
+  filter: blur(3vmax);
+  height: 83vmax;
+  left: -20vmax;
+  position: absolute;
+  top: -30vmax;
+  width: 83vmax;
+}
+
+.color6 {
+  background-color: #69c0ff;
+  filter: blur(12vmax);
+  height: 64vmax;
+  left: -16vmax;
+  position: absolute;
+  top: -6vmax;
+  transform: rotate(-8deg);
+  width: 30vmax;
+}
+
+.color7 {
+  background: linear-gradient(
+    to top,
+    #febcff 23.33%,
+    rgba(254, 202, 255, 0) 83.77%
+  );
+  top: 4vmax;
+  filter: blur(8vmax);
+  height: 50vmax;
+  left: -20vmax;
+  position: absolute;
+  transform: rotate(-30deg);
+  width: 100vmax;
+}
+
+.title {
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-size: 10vmax;
+  left: 50%;
+  line-height: 1.4;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: pre-line;
+}
